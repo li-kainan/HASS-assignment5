@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+	<head>
+		<style>
+			h1 {
+				width: 1280px;
+				font-family: arial;
+				color: #000000;
+				font-size: 48px;
+				margin-bottom: 0.2em;
+			}
+			h2 {
+				width: 1280px;
+				font-family: arial;
+				color: #000000;
+				font-size: 24px;
+				margin-top: 0em;
+			}
+			p, p.header {
+				font-family: arial;
+				font-size: 12px;
+			}
+			p.header {
+				font-size: 14px;
+			}
+		</style>
+	<title>Assignment 5: Preparation for Final Project</title>
+	</head>
+
+	<!-- Load d3.js -->
+	<script src="https://d3js.org/d3.v4.js"></script>
+
+	<body style="text-align:center; padding: 0px 40px" id="body">
+		<div align="left" style="width:1280px">
+			<h1>Assignment 5: Preparation for Final Project</h1>
+			<h2>Li Kainan (1002247)</h2>
+			
+			<article style="float:left;width:600px">
+				<p class="header">Visualizing Music Recommondation Algorithm</p>
+				<p class="header" align="left">Dataset: 
+				<a href="https://www.kaggle.com/datasets/thedevastator/popularity-of-spotify-top-tracks-by-genre">Popularity of Spotify Top Tracks by Genre</a> (24,445 songs in total)
+				</p>
+				
+				<br>
+				
+				<article style="float:left;width:120px">
+					<p><b>Variables</b></p>
+					<p>track_id *</p>
+					<p>track_name</p>
+					<p>artist_name</p>
+					<p>duration</p>
+					<p>acousticness</p>
+					<p>danceability</p>
+					<p>energy</p>
+					<p>instrumentalness</p>
+					<p>liveness</p>
+					<p>loudness</p>
+					<p>speechiness</p>
+					<p>tempo</p>
+					<p>valence</p>
+					<p>popularity</p>
+				</article>
+				
+				<article style="float:left;width:320px">
+					<p><b>Description</b></p>
+					<p>The Spotify URI for the track.</p>
+					<p>The name of the track.</p>
+					<p>The artist of the track.</p>
+					<p>The duration of the track in milliseconds.</p>
+					<p>A measure of how acoustic the track is.</p>
+					<p>A measure of how suitable the track is for dancing.</p>
+					<p>A measure of the track's energy.</p>
+					<p>A measure of how instrumental the track is.</p>
+					<p>A measure of how live the track is.</p>
+					<p>A measure of how loud the track is.</p>
+					<p>A measure of how speech-like the track is.</p>
+					<p>The track's tempo in beats per minute.</p>
+					<p>A measure of the track's positive or negative mood.</p>
+					<p>The track's popularity on Spotify.</p>
+				</article>
+				
+				<article style="float:left;">
+					<p><b>Data Type</b></p>
+					<p>String</p>
+					<p>String</p>
+					<p>String</p>
+					<p>Integer</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Float</p>
+					<p>Integer</p>
+				</article>
+			</article>
+			
+			<article style="float:left;width:600px">
+				<p><b>Workflow:</b></p>
+				<p>1) Select up to 5 songs <i>(assuming these are the songs they have listened to)</i></p>
+				<p>2) View where their preferences lie in the population</p>
+				<p>3) View the music recommendation that the system made for them, with visualized reasonings <i>(radar chart, etc.)</i></p>
+				<br>
+				<p align="center">Dashboard Wireframe</p>
+				<img src="wireframe.png" width="600">
+			</article>
+		</div>
+	</body>
+</html>
